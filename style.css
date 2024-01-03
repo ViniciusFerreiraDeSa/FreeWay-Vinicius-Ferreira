@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+  --fonteTitulo: 'Montserrat', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  padding-top: 50px;
+  margin: auto;
+  display: block;
+}
+.titulo{
+  text-align: center;
+  font-family: var(--fonteTitulo);
+}
+.espacamento{
+  gap: 10px;
+  padding: 0px 30px;
+}
+.paragrafo{
+  text-align: justify;
+  font-family: var(--fonteTitulo);
+  font-size: 18px;
+  margin: auto;
+  padding: 0px 20px;
+}
